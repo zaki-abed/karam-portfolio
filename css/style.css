@@ -360,28 +360,38 @@ ul.navbar li:hover {
 .services {
     padding: 60px 0;
 }
+
 .services .boxes {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
     gap: 60px;
     justify-content: space-between;
 }
+
 .services .boxes .box {
     background-color: #cccccc34;
     padding: 40px 20px;
     text-align: center;
     border-radius: 20px;
 }
+
+.services .boxes .box .text {
+    height: 202px;
+}
+
 .services .boxes .box img {
     width: 75px;
 }
+
 .services .boxes .box .name {
     margin: 30px 0;
 }
+
 .services .boxes .box p {
     width: 226px;
     margin: 0 auto 62px;
 }
+
 .services .boxes .box a {
     padding: 8px 16px;
     color: var(--white-color);
@@ -487,7 +497,6 @@ ul.navbar li:hover {
 .footer span {
     margin-top: 30px;
     display: block;
-    font-size: 24px;
     font-weight: 700;
 }
 /* End Footer */
