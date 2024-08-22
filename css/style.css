@@ -52,13 +52,13 @@ a {
     color: var(--main_title-color);
     position: relative;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 24px;
 }
 
 .main-title .box {
     background: #eeeeee8a;
-    width: 170px;
-    height: 68px;
+    width: 110px;
+    height: 58px;
     position: absolute;
     top: -13px;
     right: 13px;
@@ -66,25 +66,25 @@ a {
 }
 
 .main-title .square {
-    width: 15px;
-    height: 15px;
+    width: 10px;
+    height: 10px;
     background-color: var(--main_title-color);
     position: absolute;
 }
 
 .main-title .one {
-    top: -7px;
-    left: -8px;
+    top: -5px;
+    left: -5px;
 }
 
 .main-title .two {
-    top: -8px;
-    right: -7px;
+    top: -5px;
+    right: -5px;
 }
 
 .main-title .three {
-    bottom: -7px;
-    left: -7px;
+    bottom: -5px;
+    left: -5px;
 }
 /* End Component */
 /* Start Navbar */
@@ -143,6 +143,7 @@ ul.navbar {
 ul.navbar li a {
     color: var(--white-color);;
     font-size: 20px;
+    font-weight: 500;
 }
 
 .nav-link:focus, .nav-link:hover {
@@ -188,6 +189,7 @@ ul.navbar li:hover {
 .landing .text .name {
     font-size: 40px;
     color: var(--white-color);
+    font-weight: 700;
 }
 
 .landing .text .job-title {
@@ -208,13 +210,13 @@ ul.navbar li:hover {
 }
 
 .landing .text .links a {
-    color: var(--white-color);
-    font-weight: 500;
+    font-weight: 700;
     border: 1px solid var(--white-color);
-    padding: 5px 10px;
+    padding: 10px 38px;
     border-radius: 6px;
     margin-left: 10px;
     transition: 0.3s;
+    font-size: 19px;
 }
 
 .landing .text .links a:first-child {
@@ -298,8 +300,8 @@ ul.navbar li:hover {
 
 .about .text .box {
     background: #eeeeee8a;
-    width: 122px;
-    height: 52px;
+    width: 90px;
+    height: 50px;
     position: absolute;
     top: -7px;
     right: 14px;
@@ -321,31 +323,37 @@ ul.navbar li:hover {
 }
 
 .about .text .square {
-    width: 15px;
-    height: 15px;
+    width: 10px;
+    height: 9px;
     background-color: var(--main-color);
     position: absolute;
 }
 
 .about .text .one {
-    top: -7px;
-    left: -8px;
+    top: -5px;
+    left: -5px;
 }
 
 .about .text .two {
-    top: -8px;
-    right: -7px;
+    top: -5px;
+    right: -5px;
 }
 
 .about .text .three {
-    bottom: -7px;
-    left: -7px;
+    bottom: -5px;
+    left: -5px;
 }
 
 .about .image img {
     max-width: 100%;
     width: 400px;
     text-align: end;
+}
+
+@media (max-width: 768px) {
+    .about .image img {
+        width: 310px;
+    }
 }
 
 /* Start Services */
@@ -431,16 +439,18 @@ ul.navbar li:hover {
 
 .any-problem .box {
     background-color: var(--main-color);
-    padding: 60px 60px;
+    padding: 30px;
     border-radius: 53px;
     font-weight: 700;
 }
 
 .any-problem .box h2 {
     color: var(--white-color);
-    font-size: 48px;
+    font-size: 34px;
     text-align: right;
-    margin-left: 400px;
+    margin-left: 325px;
+    direction: rtl;
+    line-height: 1.8;
 }
 
 @media (max-width: 768px) {
