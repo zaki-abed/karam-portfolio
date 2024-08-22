@@ -55,6 +55,16 @@ a {
     font-size: 24px;
 }
 
+.main-title::before {
+    content: url('../images/cursor.png');
+    width: 10px;
+    height: 10px;
+    display: block;
+    position: absolute;
+    top: 36px;
+    right: -1px;
+}
+
 .main-title .box {
     background: #eeeeee8a;
     width: 110px;
