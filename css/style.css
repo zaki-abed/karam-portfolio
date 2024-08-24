@@ -8,13 +8,13 @@
     src:  url('/fonts/DIN-Next-font/ArbFONTS-DINNextLTArabic-Heavy2-2.ttf') format('ttf');
 } */
 
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Rubik:ital,wght@0,300..900;1,300..900&family=Syne:wght@400..800&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Rubik:ital,wght@0,300..900;1,300..900&family=Syne:wght@400..800&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap'); */
 /* Start Variables */
 :root {
     --main-color: #0e4dce;
     --off_white-color: #fcde95;
     --white-color: white;
-    --main_title-color: black;
+    --main_title-color: #3f3f3f;
 }
 /* End Variables */
 /* Start Global Rules */
@@ -30,7 +30,8 @@ html {
 
 body {
     position: relative;
-    font-family: "Tajawal", sans-serif;
+    /* font-family: "Tajawal", sans-serif; */
+    font-family: initial;
 }
 
 ul {
