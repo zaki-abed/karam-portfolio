@@ -1,14 +1,19 @@
 /* Google Font:  */
-/* @font-face {
-    font-family: 'DINNextLTArabic-Regular-2';
-    src:  url('/fonts/DIN-Next-font/DINNextLTArabic-Regular-2.ttf') format('ttf');
-}
 @font-face {
-    font-family: 'ArbFONTS-DINNextLTArabic-Bold-4';
-    src:  url('/fonts/DIN-Next-font/ArbFONTS-DINNextLTArabic-Heavy2-2.ttf') format('ttf');
-} */
-
-/* @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Rubik:ital,wght@0,300..900;1,300..900&family=Syne:wght@400..800&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap'); */
+    font-family: 'DINNextLTArabic';
+    src:  url('/fonts/ArbFONTS-DINNextLTArabic-Black-2.ttf') format('ttf');
+    src:  url('/fonts/ArbFONTS-DINNextLTArabic-Black-3.ttf') format('ttf');
+    src:  url('/fonts/ArbFONTS-DINNextLTArabic-Black-4.ttf') format('ttf');
+    src:  url('/fonts/ArbFONTS-DINNextLTArabic-Bold-2.ttf') format('ttf');
+    src:  url('/fonts/ArbFONTS-DINNextLTArabic-Bold-3.ttf') format('ttf');
+    src:  url('/fonts/ArbFONTS-DINNextLTArabic-Bold-4.ttf') format('ttf');
+    src:  url('/fonts/ArbFONTS-DINNextLTArabic-Heavy-1.ttf') format('ttf');
+    src:  url('/fonts/ArbFONTS-DINNextLTArabic-Heavy2-1.ttf') format('ttf');
+    src:  url('/fonts/ArbFONTS-DINNextLTArabic-Heavy2-2.ttf') format('ttf');
+    src:  url('/fonts/ArbFONTS-DINNEXTLTARABIC-LIGHT-1.ttf') format('ttf');
+    src:  url('/fonts/ArbFONTS-DINNEXTLTARABIC-LIGHT-2-2.ttf') format('ttf');
+    src:  url('/fonts/ArbFONTS-DINNextLTArabic-Medium-2.ttf') format('ttf');
+}
 /* Start Variables */
 :root {
     --main-color: #0e4dce;
@@ -30,8 +35,7 @@ html {
 
 body {
     position: relative;
-    /* font-family: "Tajawal", sans-serif; */
-    font-family: initial;
+    font-family: 'DINNextLTArabic', sans-serif;
 }
 
 ul {
@@ -164,7 +168,7 @@ ul.navbar {
 ul.navbar li a {
     color: var(--white-color);;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .nav-link:focus, .nav-link:hover {
@@ -217,7 +221,7 @@ ul.navbar li:hover {
     color: var(--off_white-color);
     display: block;
     margin-bottom: 30px;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .landing .text p {
@@ -343,7 +347,7 @@ ul.navbar li:hover {
     background: #cccccc30;
     padding: 24px;
     border-radius: 5px;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 @media (max-width: 768px) {
@@ -397,7 +401,7 @@ ul.navbar li:hover {
 
 .services .boxes {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 60px;
     justify-content: space-between;
 }
@@ -419,6 +423,7 @@ ul.navbar li:hover {
 
 .services .boxes .box .name {
     margin: 30px 0;
+    font-weight: 700;
 }
 
 .services .boxes .box p {
@@ -557,7 +562,7 @@ ul.navbar li:hover {
 .footer span {
     margin-top: 30px;
     display: block;
-    font-weight: 500;
+    font-weight: 600;
     color: rgba(0, 0, 0, 0.6);
 }
 /* End Footer */
