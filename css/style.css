@@ -348,6 +348,8 @@ ul.navbar li:hover {
     padding: 24px;
     border-radius: 5px;
     font-weight: 600;
+    text-align: justify;
+    color: var(--main_title-color);
 }
 
 @media (max-width: 768px) {
@@ -424,11 +426,13 @@ ul.navbar li:hover {
 .services .boxes .box .name {
     margin: 30px 0;
     font-weight: 700;
+    color: var(--main_title-color);
 }
 
 .services .boxes .box p {
     width: 226px;
     margin: 0 auto 62px;
+    color: var(--main_title-color);
 }
 
 .services .boxes .box a {
@@ -502,7 +506,7 @@ ul.navbar li:hover {
 
 .any-problem .box h2 {
     color: var(--white-color);
-    font-size: 34px;
+    font-size: 36px;
     text-align: right;
     margin-left: 325px;
     direction: rtl;
